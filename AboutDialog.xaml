@@ -1,0 +1,59 @@
+﻿<Window x:Class="FavoritesManager.AboutDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="关于收藏夹管理器" Height="350" Width="450"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        Background="#F5F5F5">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,20">
+            <Border Background="#2196F3" Width="64" Height="64" CornerRadius="32" 
+                    VerticalAlignment="Center" Margin="0,0,15,0">
+                <TextBlock Text="📚" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Border>
+            <StackPanel>
+                <TextBlock Text="收藏夹管理器" FontSize="24" FontWeight="Bold" Foreground="#333"/>
+                <TextBlock Text="v1.0.0" FontSize="14" Foreground="#666" Margin="0,5,0,0"/>
+            </StackPanel>
+        </StackPanel>
+
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" Margin="0,0,0,20">
+            <StackPanel>
+                <TextBlock Text="工具简介" FontSize="16" FontWeight="Bold" Margin="0,0,0,10" Foreground="#2196F3"/>
+                <TextBlock Text="收藏夹管理器是一款方便实用的个人网址收藏工具，帮助您高效管理和快速访问喜欢的网站资源。" 
+                           TextWrapping="Wrap" Margin="0,0,0,15" LineHeight="20"/>
+
+                <TextBlock Text="主要功能" FontSize="16" FontWeight="Bold" Margin="0,0,0,10" Foreground="#2196F3"/>
+                <StackPanel Margin="15,0,0,15">
+                    <TextBlock Text="• 分类管理：支持按免费/付费资源筛选" Margin="0,0,0,5"/>
+                    <TextBlock Text="• 搜索功能：支持按名称、网址、描述搜索" Margin="0,0,0,5"/>
+                    <TextBlock Text="• 自定义浏览器：支持设置默认浏览器" Margin="0,0,0,5"/>
+                    <TextBlock Text="• 资源保护：默认资源受保护，防止误删" Margin="0,0,0,5"/>
+                    <TextBlock Text="• 一键访问：快速打开收藏的网址" Margin="0,0,0,5"/>
+                    <TextBlock Text="• 自定义添加：支持添加个人收藏资源" Margin="0,0,0,5"/>
+                </StackPanel>
+
+                <TextBlock Text="使用说明" FontSize="16" FontWeight="Bold" Margin="0,0,0,10" Foreground="#2196F3"/>
+                <StackPanel Margin="15,0,0,15">
+                    <TextBlock Text="• 默认资源：程序内置了大量实用网站资源，受保护不可编辑删除" Margin="0,0,0,5" TextWrapping="Wrap"/>
+                    <TextBlock Text="• 自定义资源：您可以添加自己的收藏链接，支持编辑和删除" Margin="0,0,0,5" TextWrapping="Wrap"/>
+                    <TextBlock Text="• 浏览器设置：首次打开链接时可设置默认浏览器" Margin="0,0,0,5" TextWrapping="Wrap"/>
+                    <TextBlock Text="• 数据安全：自定义资源在刷新时不会丢失" Margin="0,0,0,5" TextWrapping="Wrap"/>
+                </StackPanel>
+                <TextBlock Text="链接分享者" FontSize="16" FontWeight="Bold" Margin="0,0,0,10" Foreground="#2196F3"/>
+                <TextBlock Text="偷吃布丁的涅普缇努" 
+           TextWrapping="Wrap" Margin="0,0,0,15" LineHeight="20"/>
+            </StackPanel>
+        </ScrollViewer>
+
+        <Button Grid.Row="2" Content="确定" Width="80" Height="30" 
+                Click="BtnOk_Click" Background="#2196F3" Foreground="White"
+                HorizontalAlignment="Center"/>
+    </Grid>
+</Window>

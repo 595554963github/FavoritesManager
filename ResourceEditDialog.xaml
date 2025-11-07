@@ -1,0 +1,55 @@
+<Window x:Class="FavoritesManager.ResourceEditDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="编辑资源" Height="500" Width="450"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize">
+    <Grid Margin="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="资源信息" FontSize="16" FontWeight="Bold" Margin="0,0,0,15"/>
+
+        <StackPanel Grid.Row="1" Margin="0,0,0,10">
+            <TextBlock Text="名称*" FontWeight="Bold" Margin="0,0,0,5"/>
+            <TextBox x:Name="txtName" Padding="5"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Margin="0,0,0,10">
+            <TextBlock Text="网址*" FontWeight="Bold" Margin="0,0,0,5"/>
+            <TextBox x:Name="txtUrl" Padding="5"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="3" Margin="0,0,0,10">
+            <TextBlock Text="分类" FontWeight="Bold" Margin="0,0,0,5"/>
+            <ComboBox x:Name="cmbCategory" Padding="5" IsEditable="True"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="4" Margin="0,0,0,10">
+            <TextBlock Text="类型" FontWeight="Bold" Margin="0,0,0,5"/>
+            <StackPanel Orientation="Horizontal">
+                <RadioButton x:Name="rbFree" Content="免费资源" Margin="0,0,15,0" GroupName="Type"/>
+                <RadioButton x:Name="rbPaid" Content="付费资源" GroupName="Type"/>
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel Grid.Row="5" Margin="0,0,0,15">
+            <TextBlock Text="描述" FontWeight="Bold" Margin="0,0,0,5"/>
+            <TextBox x:Name="txtDescription" Padding="5" Height="100" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Auto"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="6" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button x:Name="btnOK" Content="确定" Click="btnOK_Click" 
+                    Padding="15,5" Margin="0,0,10,0" Background="#4CAF50" Foreground="White"/>
+            <Button x:Name="btnCancel" Content="取消" Click="btnCancel_Click" 
+                    Padding="15,5" Background="#9E9E9E" Foreground="White"/>
+        </StackPanel>
+    </Grid>
+</Window>
