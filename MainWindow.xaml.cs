@@ -119,7 +119,8 @@ namespace FavoritesManager
             AddDefaultResource("switchfirm", "https://switchfirm.org", "其他", "Free", "一个专门下载switch固件的网站");
             AddDefaultResource("foobar2000组件官方下载网站", "https://www.foobar2000.org/components", "其他", "Free", "收录了大约200多个foobar2000组件，不过现在使用64位系统的用户无法安装那些仅支持32位系统的组件");
             AddDefaultResource("quickbms脚本官方下载网站", "https://aluigi.altervista.org/quickbms.htm", "其他", "Free", "收录了超过2000多个bms脚本，不过很多bms脚本已经失效或者根本无效，此官网早已经停止更新，因此有更多的bms脚本未收录，至于quickbms主程序可以找我下载汉化版的");
-
+            AddDefaultResource("123apps", "https://123apps.com/cn", "其他", "Free", "一个用于影片、音频、PDF与档案转换的线上工具，神奇之处在于它是使用浏览器来在线处理，不需要下载各种软件");
+            AddDefaultResource("Garbro游戏档案类型", "https://morkt.github.io/GARbro/supported.html", "其他", "Free", "汇总了Garbro支持的游戏档案和测试过的游戏列表");
             filteredResources = resources.ToList();
             SortResourcesByName();
         }
