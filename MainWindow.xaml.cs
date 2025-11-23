@@ -1,7 +1,7 @@
-using System.Windows;
-using System.Windows.Controls;
 using System.Diagnostics;
 using System.IO;
+using System.Windows;
+using System.Windows.Controls;
 
 namespace FavoritesManager
 {
@@ -47,6 +47,8 @@ namespace FavoritesManager
         {
             AddDefaultResource("GitHub", "https://github.com", "代码托管平台", "Free", "目前全球最大、最流行的代码托管平台。");
             AddDefaultResource("Gitee", "https://gitee.com", "代码托管平台", "Free", "码云,由OSCHINA开源中国社区推出的国产平台，是中国最大的代码托管平台。");
+            AddDefaultResource("nuget", "https://www.nuget.org", "其他", "Free", ".NET平台的包管理器官方网站，.NET开发常常需要用安装nuget包，在这可以尽情搜索");
+            AddDefaultResource("componentaceACE", "https://www.componentace.com", "其他", "Free", "一家专注于软件开发组件的公司，主要为开发者提供数据库、压缩、加密等领域的功能组件，支持 Delphi、C++ Builder、.NET等多种开发平台和框架。");
             AddDefaultResource("MSDN", "https://msdn.itellyou.cn", "其他", "Free", "微软官方Windows系统镜像下载地址");
             AddDefaultResource("NEXT, ITELLYOU", "https://next.itellyou.cn/Original", "其他", "Free", "第三方Windows系统镜像下载地址");
             AddDefaultResource("城通网盘解析工具", "https://www.umpsa.top", "其他", "Free", "城通网盘链接解析器，解析链接提高下载速度");
@@ -107,13 +109,16 @@ namespace FavoritesManager
             AddDefaultResource("reshax", "https://reshax.com", "论坛社区", "Free", "一个专注于游戏模组、游戏解包的社区论坛");
             AddDefaultResource("Nexus Mods", "https://www.nexusmods.com", "游戏模组", "Free", "全球最大的游戏模组平台，涵盖几乎所有主流游戏");
             AddDefaultResource("Mod DB", "https://www.moddb.com", "游戏模组", "Free", "老牌模组网站，包含大量独立游戏模组和自制游戏");
+            AddDefaultResource("GBATemp", "https://gbatemp.net", "论坛社区", "Free", "一个专注于各种主机掌机和PC游戏下载和交流的论坛社区");
+            AddDefaultResource("progamercity", "https://progamercity.net/game-files", "论坛社区", "Free", "一个分享各种游戏解包工具的论坛社区，但是它这个网页打开有点慢");
             AddDefaultResource("GameBanana(香蕉网)", "https://gamebanana.com", "游戏模组", "Free", "专注于CS、Garry's Mod等Source引擎游戏的模组");
-            AddDefaultResource("ZenHAX", "https://zenhax.com", "游戏模组", "Free", "一个专注于游戏模组、游戏解包的社区论坛,该论坛已关闭，没有新帖，只能去里面翻找一些历史旧帖");
+            AddDefaultResource("ZenHAX", "https://zenhax.com", "论坛社区", "Free", "一个专注于游戏模组、游戏解包的社区论坛,该论坛已关闭，没有新帖，只能去里面翻找一些历史旧帖");
             AddDefaultResource("modworkshop", "https://modworkshop.net", "游戏模组", "Free", "一个创造和下载各种游戏模组的平台");
             AddDefaultResource("cs.rin.ru", "https://cs.rin.ru/forum/viewtopic.php?t=100672", "论坛社区", "Free", "一个虚幻引擎游戏交流论坛，主要更新各种虚幻引擎AES密钥、bms脚本、AES finder和讨论解包方法");
             AddDefaultResource("Gildor's Forums", "https://www.gildor.org/smf/index.php?board=37.0", "论坛社区", "Free", "一个虚幻引擎游戏交流论坛，主要讨论各种虚幻3/4/5游戏解包方法");
             AddDefaultResource("Falcom-模组制作工具", "http://modding.tistory.com/3", "游戏模组", "Free", "Falcom游戏工具");
             AddDefaultResource("XDA", "https://xdaforums.com", "论坛社区", "Free", "一个全球知名的移动设备开发和改装技术论坛");
+            AddDefaultResource("RomHacking", "https://www.romhacking.net/forum/index.php?board=5.0", "论坛社区", "Free", "一个外国人的游戏论坛，主要讨论游戏解包提取");
             AddDefaultResource("PlayStation专用固件下载", "https://archive.midnightchannel.net/SonyPS", "其他", "Free", "一个可以下载psv、psp、ps3、ps4和ps5官方固件的网站，其中ps4和ps5的固件仍在更新");
             AddDefaultResource("darthsternie", "https://darthsternie.net", "其他", "Free", "一个可以下载xbox自制软件、3ds、switch、psp、psv、ps2、ps3、ps4和ps5固件的网站，看着挺全面，但是部分机型固件好像更新的不是那么及时");
             AddDefaultResource("switchfirm", "https://switchfirm.org", "其他", "Free", "一个专门下载switch固件的网站");
