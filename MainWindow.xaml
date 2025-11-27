@@ -8,6 +8,7 @@
             <Setter Property="Padding" Value="8,4"/>
             <Setter Property="Margin" Value="2"/>
             <Setter Property="Background" Value="#F8F9FA"/>
+            <Setter Property="ToolTip" Value="{Binding Description}"/>
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
                     <Setter Property="Background" Value="#F3E5F5"/>
@@ -17,6 +18,15 @@
                     <Setter Property="Foreground" Value="Black"/>
                 </Trigger>
             </Style.Triggers>
+        </Style>
+        <Style x:Key="CustomToolTipStyle" TargetType="ToolTip">
+            <Setter Property="Background" Value="#2D2D30"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderBrush" Value="#4EC9B0"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Padding" Value="8"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="MaxWidth" Value="300"/>
         </Style>
     </Window.Resources>
     <Grid Margin="10">
@@ -28,16 +38,30 @@
         <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,10">
             <ComboBox x:Name="cmbCategory" Width="120" Margin="5,0,0,0" VerticalAlignment="Center"
                       SelectionChanged="cmbCategory_SelectionChanged">
+                <ComboBox.ToolTip>
+                    <ToolTip Content="选择资源分类进行筛选" Style="{StaticResource CustomToolTipStyle}"/>
+                </ComboBox.ToolTip>
             </ComboBox>
-            <TextBlock Text="搜索：" VerticalAlignment="Center" Margin="20,0,5,0" FontWeight="SemiBold" Foreground="#333"/>
+            <TextBlock Text="搜索:" VerticalAlignment="Center" Margin="20,0,5,0" FontWeight="SemiBold" Foreground="#333"/>
             <TextBox x:Name="txtSearch" Width="200" Margin="0,0,0,0" VerticalAlignment="Center"
-                     TextChanged="txtSearch_TextChanged" Padding="5" 
-                     ToolTip="搜索资源名称、网址、描述或分类"/>
+                     TextChanged="txtSearch_TextChanged" Padding="5">
+                <TextBox.ToolTip>
+                    <ToolTip Content="输入资源名称、网址、描述或分类进行搜索" Style="{StaticResource CustomToolTipStyle}"/>
+                </TextBox.ToolTip>
+            </TextBox>
             <Button x:Name="btnAdd" Content="添加资源" Margin="30,0,0,0" 
-                    Click="btnAdd_Click" Padding="10,5" Background="#4CAF50" Foreground="White" Width="80"/>
+                    Click="btnAdd_Click" Padding="10,5" Background="#4CAF50" Foreground="White" Width="80">
+                <Button.ToolTip>
+                    <ToolTip Content="点击添加新的资源到收藏夹" Style="{StaticResource CustomToolTipStyle}"/>
+                </Button.ToolTip>
+            </Button>
 
             <Button x:Name="btnAbout" Content="关于" Margin="50,0,0,0" 
-                    Click="btnAbout_Click" Padding="10,5" Background="#9C27B0" Foreground="White" Width="60"/>
+                    Click="btnAbout_Click" Padding="10,5" Background="#9C27B0" Foreground="White" Width="60">
+                <Button.ToolTip>
+                    <ToolTip Content="关于收藏夹管理器" Style="{StaticResource CustomToolTipStyle}"/>
+                </Button.ToolTip>
+            </Button>
         </StackPanel>
         <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
@@ -47,7 +71,7 @@
             </Grid.ColumnDefinitions>
             <Border Grid.Column="0" BorderBrush="#DDD" BorderThickness="1" CornerRadius="4">
                 <ListBox x:Name="lstResources" SelectionChanged="lstResources_SelectionChanged"
-                         ItemContainerStyle="{StaticResource ListItemStyle}">
+                         ItemContainerStyle="{StaticResource ListItemStyle}" ToolTip="如果使用鼠标觉得滚轮翻的太快就用鼠标点击上下两端的箭头">
                     <ListBox.ItemTemplate>
                         <DataTemplate>
                             <StackPanel Margin="5">
@@ -88,18 +112,27 @@
                     <TextBlock Text="类型:" FontWeight="Bold" Margin="0,5,0,2"/>
                     <TextBlock x:Name="txtDetailType" Text="-" Margin="0,0,0,10"/>
 
-                    <TextBlock Text="描述:" FontWeight="Bold" Margin="0,5,0,2"/>
-                    <TextBlock x:Name="txtDetailDescription" Text="-" TextWrapping="Wrap" Margin="0,0,0,20"/>
-
                     <Button x:Name="btnOpen" Content="打开网址" Click="btnOpen_Click" 
                     Background="#2196F3" Foreground="White" Padding="15,8" 
-                    FontWeight="Bold" IsEnabled="False" Margin="0,0,0,15"/>
+                    FontWeight="Bold" IsEnabled="False" Margin="0,0,0,15">
+                        <Button.ToolTip>
+                            <ToolTip Content="点击打开选中的资源网址" Style="{StaticResource CustomToolTipStyle}"/>
+                        </Button.ToolTip>
+                    </Button>
 
                     <Button x:Name="btnEdit" Content="编辑" Click="btnEdit_Click" 
-                    Margin="0,0,0,12" Background="#FFC107" Foreground="Black" Padding="10,5"/>
+                            Margin="0,0,0,12" Background="#FFC107" Foreground="Black" Padding="10,5">
+                        <Button.ToolTip>
+                            <ToolTip Content="编辑选中的资源信息" Style="{StaticResource CustomToolTipStyle}"/>
+                        </Button.ToolTip>
+                    </Button>
 
                     <Button x:Name="btnDelete" Content="删除" Click="btnDelete_Click" 
-                    Background="#F44336" Foreground="White" Padding="10,5"/>
+                    Background="#F44336" Foreground="White" Padding="10,5">
+                        <Button.ToolTip>
+                            <ToolTip Content="删除选中的资源" Style="{StaticResource CustomToolTipStyle}"/>
+                        </Button.ToolTip>
+                    </Button>
                 </StackPanel>
             </Border>
         </Grid>
@@ -108,7 +141,7 @@
                 <TextBlock x:Name="txtStatus" Text="就绪"/>
             </StatusBarItem>
             <StatusBarItem HorizontalAlignment="Right">
-                <TextBlock x:Name="txtCount" Text="共 0 个资源"/>
+                <TextBlock x:Name="txtCount" Text="共0个资源"/>
             </StatusBarItem>
         </StatusBar>
     </Grid>
