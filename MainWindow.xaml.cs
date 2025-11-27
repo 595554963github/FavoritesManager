@@ -27,14 +27,14 @@ namespace FavoritesManager
             cmbCategory.SelectedIndex = 0;
         }
 
-        private void AddDefaultResource(string name, string url, string category, string type, string description)
+        private void AddDefaultResource(string name, string url, string category, string type, string tooltip)
         {
             resources.Add(new ResourceItem
             {
                 Id = Guid.NewGuid(),
                 Name = name,
                 Url = url,
-                Description = description,
+                Description = tooltip,
                 Category = category,
                 Type = type,
                 CreatedDate = DateTime.Now,
@@ -59,29 +59,50 @@ namespace FavoritesManager
             AddDefaultResource("漫漫漫画", "https://www.manmanapp.com", "漫画", "Free", "漫漫漫画是一个专注于提供正版原创漫画内容的平台，致力于将二次元宅腐暖萌一网打尽，成为国内正版漫画的集结地");
             AddDefaultResource("漫本", "https://www.manben.com", "漫画", "Free", "漫本拥有上万部各类题材的漫画作品，包括恋爱漫画、热血漫画、武侠漫画、冒险漫画、科幻漫画、同人漫画、治愈漫画、内涵漫画、都市漫画、悬疑漫画、校园漫画、总裁漫画、搞笑漫画、玄幻漫画等多种类型");
             AddDefaultResource("动漫嗨", "https://www.dongmanhi.com", "漫画", "Free", "拥有热血、恋爱、都市、纯爱、穿越、生活、脑洞、侦探、节操等风格漫画");
-            AddDefaultResource("推次元", "https://a2cy.com", "Cosplay", "Free", "二次元cos");
-            AddDefaultResource("COS二次元-Cosplay社区", "https://www.cos2cy.com", "Cosplay", "Free", "二次元cos");
-            AddDefaultResource("次元岛", "https://www.cosplay8.com/index.html", "Cosplay", "Free", "二次元cos");
+            AddDefaultResource("推次元", "https://a2cy.com", "Cosplay", "Free", "动漫、游戏、影视等二次元角色cosplay");
+            AddDefaultResource("COS二次元-Cosplay社区", "https://www.cos2cy.com", "Cosplay", "Free", "动漫、游戏、影视等二次元角色cosplay");
+            AddDefaultResource("次元岛", "https://www.cosplay8.com/index.html", "Cosplay", "Free", "动漫、游戏、影视等二次元角色cosplay");
+            AddDefaultResource("Cosz", "https://cosz.com", "Cosplay", "Free", "动漫、游戏、影视等二次元角色cosplay");
+            AddDefaultResource("cosplay啦", "https://www.cosplayla.com", "Cosplay", "Free", "动漫、游戏、影视等二次元角色cosplay");
             AddDefaultResource("Udemy", "https://www.udemy.com", "学习平台", "Paid", "在线学习平台，提供付费课程");
             AddDefaultResource("pixabay", "https://pixabay.com/zh/illustrations", "素材网站", "Free", "免费正版高清插画素材库");
             AddDefaultResource("CG模型网", "https://www.cgmodel.com", "素材网站", "Paid", "3d模型库");
-            AddDefaultResource("国漫图库", "https://guomantuku.com", "素材网站", "Free", "AI绘画国漫女神");
-            AddDefaultResource("Cosz", "https://cosz.com", "Cosplay", "Free", "JK、洛丽塔和国风汉服，再加上cosplay和插画");
+            AddDefaultResource("国漫图库", "https://guomantuku.com", "素材网站", "Free", "AI国漫女神图库");
+            AddDefaultResource("我爱动漫国漫壁纸", "https://www.520dm.cn", "素材网站", "Paid", "AI国漫女神图库，看看免费的即可，不需要花钱开VIP");
+            AddDefaultResource("爱小舞国漫壁纸社", "https://www.52gmbz.cn", "素材网站", "Paid", "AI国漫女神图库，看看免费的即可，不需要花钱开VIP");
+            AddDefaultResource("青春拉阔国漫壁纸", "http://www.qclive.cn", "素材网站", "Free", "AI国漫女神图库，该网站似乎没有设置VIP付费资源，直接浏览就行了");
+            AddDefaultResource("ai笨笨壁纸网", "http://aiboom.art", "素材网站", "Free", "AI国漫女神图库，该网站均为免费资源，直接浏览就行了");
+            AddDefaultResource("哲风壁纸阁", "http://zhefengbizhi.cn", "素材网站", "Free", "AI国漫女神图库，该网站为免费资源，直接浏览就行了，置顶的是个老铁国漫壁纸的付费资源，那个不用管");
+            AddDefaultResource("老铁国漫壁纸", "https://laotiebizhi.com", "素材网站", "Paid", "AI国漫女神图库，该网站均为付费资源，不是白嫖资源，我特意查看了下购买权限，真的有人花钱购买");
+            AddDefaultResource("小土豆国漫壁纸", "https://www.guomanbizhi.com", "素材网站", "Paid", "AI国漫女神图库，该网站为付费资源，看看就行，付费下载就算了");
+            AddDefaultResource("大西瓜国漫壁纸", "http://www.guomanbizhi.cn", "素材网站", "Free", "AI国漫女神图库，该网站均为免费资源，直接浏览就行了");
+            AddDefaultResource("爱给网", "https://www.aigei.com/design", "素材网站", "Free", "一个包含在线设计、模板、AI绘图、图库、元素、背景、图标、矢量、字体、UI、服装、PPT的多用途网站");
             AddDefaultResource("P站", "https://www.vilipix.com", "素材网站", "Free", "国外最大的插画师作品发布平台，日本的高人气网站，我发现360浏览器可能会404，使用微软edge浏览器却可以正常访问");
-            AddDefaultResource("Figma", "https://www.figma.com", "设计资源", "Free", "协作式UI设计工具");
             AddDefaultResource("AWS", "https://aws.amazon.com", "云服务", "Paid", "亚马逊云服务平台");
             AddDefaultResource("佩可爱动漫", "https://acg.pekolove.net", "动漫", "Free", "一个免费的可以在线播放动漫的网站");
             AddDefaultResource("樱花动漫", "https://www.295yhw.com", "动漫", "Free", "一个免费的可以在线播放动漫的网站");
             AddDefaultResource("樱之空动漫", "https://skr.skrcc.cc:666/?ref=www.zhaicangku.com", "动漫", "Free", "一个免费的可以在线播放动漫的网站");
-            AddDefaultResource("风车动漫", "https://www.fcdmwz.com", "动漫", "Free", "一个免费的可以在线播放动漫的网站");
+            AddDefaultResource("风车动漫", "https://fche.cc", "动漫", "Free", "一个免费的可以在线播放动漫的网站");
             AddDefaultResource("咪咕番", "https://www.gugu3.com", "动漫", "Free", "一个免费的可以在线播放动漫的网站");
             AddDefaultResource("Omofun动漫", "https://omofun.in", "动漫", "Free", "一个免费的可以在线播放动漫的网站");
             AddDefaultResource("MuteFun动漫", "https://www.mutean.com", "动漫", "Free", "一个免费的可以在线播放动漫的网站");
             AddDefaultResource("girigiri爱动漫", "https://bgm.girigirilove.com", "动漫", "Free", "一个免费的可以在线播放动漫的网站");
+            AddDefaultResource("咕咕番", "https://www.gugu3.com", "动漫", "Free", "一个免费的可以在线播放动漫的网站");
+            AddDefaultResource("E站弹幕网", "https://www.ezdmw.site", "动漫", "Free", "一个免费的可以在线播放动漫的网站，并且可以使用视频下方的迅雷链接下载到本地，非常良心");
+            AddDefaultResource("漫猫动漫", "https://www.comicat.org", "动漫", "Free", "一个免费的可以下载动漫资源的网站");
+            AddDefaultResource("次元狗动漫", "https://www.acgndog.com", "动漫", "Free", "一个提供大量的动漫、漫画、游戏和轻小说资源的网站，能免费看动漫就算了居然还能免费下载游戏，绝对是游戏和动漫爱好者的必选网站");
+            AddDefaultResource("柒番动漫", "https://www.qifun.cc", "动漫", "Free", "一个免费的可以在线播放动漫的网站");
+            AddDefaultResource("ZzzFun动漫", "http://www.gcpfsc.com", "动漫", "Free", "一个免费的可以在线播放动漫的网站");
+            AddDefaultResource("番薯动漫", "https://www.fsdm02.com", "动漫", "Free", "一个免费的可以在线播放动漫的网站");
             AddDefaultResource("TZ素材网", "https://www.tzsucai.com/soft.html", "设计资源", "Free", "TZ素材网，拥有三维设计、编程开发、动画设计、平面设计、渲染器、办公软件、视频制作、软件汉化等...");
             AddDefaultResource("编程师", "https://123.w3cschool.cn/webtools", "设计资源", "Free", "拥有在线IDE工具、站长辅助工具、编码转换工具、CSS在线工具、正则表达式工具、颜色工具、密码工具、XML在线工具、格式化美化工具、编程工具");
             AddDefaultResource("视觉小说游戏信息数据库", "https://vndb.org", "其他", "Free", "一个galgame游戏资源数据库");
             AddDefaultResource("CnGal资料站", "https://www.cngal.org", "其他", "Free", "一个galgame游戏百科资料站");
+            AddDefaultResource("Galgame月谣", "https://www.sayafx.vip", "游戏下载", "Free", "一个免费GalGame游戏资源下载网站");
+            AddDefaultResource("SteamGalgame", "https://steamgalgame.com", "其他", "Free", "一个收集Steam上中文Galgame的网站，本网站会显示galgame游戏的价格和折扣，方便大家快速查找和获取Steam上最新的官方中文Galgame");
+            AddDefaultResource("xxacg", "https://xxacg.net/", "游戏下载", "Free", "一个免费的galgame游戏资源下载网站，注册账号后就可以免费下载，只是该网站相应较慢，需要耐心等待");
+            AddDefaultResource("真红小站", "https://www.shinnku.com", "游戏下载", "Free", "一个免费GalGame游戏资源下载网站，不需要注册账号即可下载");
+            AddDefaultResource("稻荷GAL", "https://inarigal.com", "游戏下载", "Free", "一个免费GalGame游戏资源下载网站，不需要注册账号即可下载");
             AddDefaultResource("MyGalgame", "https://www.ttloli.com", "其他", "Free", "一个曾经的galgame游戏资源分享网站，现在似乎只能看下幻灯片了");
             AddDefaultResource("游戏工厂", "https://gamefabrique.com", "游戏下载", "Free", "一个外国人的游戏资源免费下载网站，访问速度很慢");
             AddDefaultResource("All My Roms", "https://www.allmyroms.net", "游戏下载", "Free", "一个外国人的掌机游戏免费资源下载网站");
@@ -91,15 +112,22 @@ namespace FavoritesManager
             AddDefaultResource("myrient", "https://myrient.erista.me/files/Redump/Microsoft%20-%20Xbox%20360", "游戏下载", "Free", "一个Xbox360游戏资源免费下载网站");
             AddDefaultResource("散月的星空", "https://www.sygame515.com", "游戏下载", "Free", "一个Switch和PS4游戏免费资源下载网站");
             AddDefaultResource("奥德彪计划", "https://2468c.com", "游戏下载", "Free", "一个PS4和PS5游戏免费资源下载网站");
+            AddDefaultResource("GameFreer资源网", "https://www.gamefreer.com", "游戏下载", "Free", "一个端游手游和任天堂游戏免费资源下载网站，该网站为防止网络爬虫倒卖资源而对链接进行了加密，可通过手机浏览器获取链接再用电脑下载");
             AddDefaultResource("梨子乐游戏", "https://lzlgo.com", "游戏下载", "Free", "一个PC游戏免费资源下载网站");
             AddDefaultResource("资源避难所", "https://www.flysheep6.com", "游戏下载", "Free", "一个PC游戏免费资源下载网站");
             AddDefaultResource("牛游戏网", "https://www.newyx.net/games", "游戏下载", "Free", "一个PC游戏免费资源下载网站");
             AddDefaultResource("游戏大桶", "https://www.gamekeg.com", "游戏下载", "Free", "一个Switch、PS4、PS5和PC游戏免费资源下载网站");
             AddDefaultResource("GAME520", "https://www.gamer520.com", "游戏下载", "Free", "一个Switch和PC游戏免费资源下载网站");
+            AddDefaultResource("沙克游戏", "https://shaqzone.com", "游戏下载", "Free", "一个Switch和PC游戏免费资源下载网站，夸克网盘链接，不喜欢夸克网盘的绕过吧");
+            AddDefaultResource("Koyso", "https://koyso.to", "游戏下载", "Free", "一个PC游戏免费资源下载网站");
+            AddDefaultResource("小叽资源", "https://steamzg.com", "游戏下载", "Free", "一个PC游戏免费资源下载网站");
+            AddDefaultResource("烧录卡", "https://shaoluka.com", "游戏下载", "Paid", "一个任天堂游戏资源下载网站，游戏分类不明确，看不出游戏的具体平台，59.9元永久VIP，全站资源免费下载，但是没注明每天可下载多少次，差评");
             AddDefaultResource("咸鱼单机", "https://www.xianyudanji.to", "游戏下载", "Paid", "一个Switch和PC游戏资源下载网站，永久VIP原价129，限时特价49，每日可下载50次，就是不知道它这个限时特价的时间范围，如果是长期的话，那它的性价比还是较高的");
             AddDefaultResource("GBT单机游戏空间", "https://gbtgame.org", "游戏下载", "Paid", "一个主机、掌机和PC游戏资源下载网站，永久VIP49.8,全站无限制下载，不限制每天的下载次数");
             AddDefaultResource("GAME中文网", "https://www.ns211.com", "游戏下载", "Paid", "一个Switch和PC游戏资源下载网站，80元终身VIP，付费资源免费下载，资源终身无限下载");
             AddDefaultResource("nspdown", "https://www.nspdown.com", "游戏下载", "Paid", "一个Switch游戏资源下载网站，60元终身VIP，每天可下载50个资源，全部资源免费下载");
+            AddDefaultResource("nsboy", "https://www.nsboy.net/portal.php", "游戏下载", "Paid", "一个Switch游戏资源下载网站，89元终身VIP，全部资源免费下载，但是没写每天可下载多少次");
+            AddDefaultResource("橘子下载", "https://www.juzixiazai.com", "游戏下载", "Free", "一个Switch游戏资源下载网站，全部资源免费下载，连账号都不用注册就可以白嫖");
             AddDefaultResource("nekogal", "https://www.nekogal.com", "游戏下载", "Free", "一个Galgame游戏资源免费下载网站，LSP的天堂");
             AddDefaultResource("TouchGal", "https://www.touchgal.us", "游戏下载", "Free", "一个免费,高质量的Galgame资源下载站");
             AddDefaultResource("18rwan", "https://www.18rwan.com", "游戏下载", "Paid", "一个PC单机游戏资源下载网站，198元终身VIP，全部VIP资源免费，全部VIP内容可查看，每天可下载30次");
@@ -126,6 +154,7 @@ namespace FavoritesManager
             AddDefaultResource("quickbms脚本官方下载网站", "https://aluigi.altervista.org/quickbms.htm", "其他", "Free", "收录了超过2000多个bms脚本，不过很多bms脚本已经失效或者根本无效，此官网早已经停止更新，因此有更多的bms脚本未收录，至于quickbms主程序可以找我下载汉化版的");
             AddDefaultResource("123apps", "https://123apps.com/cn", "其他", "Free", "一个用于影片、音频、PDF与档案转换的线上工具，神奇之处在于它是使用浏览器来在线处理，不需要下载各种软件");
             AddDefaultResource("Garbro游戏档案类型", "https://morkt.github.io/GARbro/supported.html", "其他", "Free", "汇总了Garbro支持的游戏档案和测试过的游戏列表");
+            AddDefaultResource("Indienova", "https://indienova.com", "论坛社区", "Free", "一个专注于独立游戏的中文社区与媒体平台，在这你可以浏览游戏在steam和主机掌机平台的售价信息，可以发布自己的游戏，可以查看开发者写的文章，甚至可以试玩一些游戏");
             filteredResources = resources.ToList();
             SortResourcesByName();
         }
@@ -176,13 +205,11 @@ namespace FavoritesManager
 
                 if (selected.IsDefault)
                 {
-                    txtDetailDescription.Text = (string.IsNullOrEmpty(selected.Description) ? "-" : selected.Description) +
-                                              Environment.NewLine + Environment.NewLine +
-                                              "🔒 这是默认链接，受保护不可删除";
+                    txtStatus.Text = $"🔒{selected.Name}是默认资源，受保护不可删除";
                 }
                 else
                 {
-                    txtDetailDescription.Text = string.IsNullOrEmpty(selected.Description) ? "-" : selected.Description;
+                    txtStatus.Text = $"已选择:{selected.Name}";
                 }
 
                 btnOpen.IsEnabled = true;
@@ -195,7 +222,7 @@ namespace FavoritesManager
                 txtDetailUrl.Text = "-";
                 txtDetailCategory.Text = "-";
                 txtDetailType.Text = "-";
-                txtDetailDescription.Text = "-";
+                txtStatus.Text = "就绪";
                 btnOpen.IsEnabled = false;
                 btnEdit.IsEnabled = false;
                 btnDelete.IsEnabled = false;
@@ -222,7 +249,7 @@ namespace FavoritesManager
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"保存浏览器设置失败: {ex.Message}", "错误", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show($"保存浏览器设置失败:{ex.Message}", "错误", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
         private void OpenUrlWithBrowser(string url, string resourceName)
@@ -234,7 +261,7 @@ namespace FavoritesManager
                 if (!string.IsNullOrEmpty(browserPath) && File.Exists(browserPath))
                 {
                     Process.Start(new ProcessStartInfo(browserPath, url));
-                    txtStatus.Text = $"已使用自定义浏览器打开: {resourceName}";
+                    txtStatus.Text = $"已使用自定义浏览器打开:{resourceName}";
                 }
                 else
                 {
@@ -244,7 +271,7 @@ namespace FavoritesManager
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"打开网址失败: {ex.Message}", "错误", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show($"打开网址失败:{ex.Message}", "错误", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -270,7 +297,7 @@ namespace FavoritesManager
                 string? browserPath = GetSavedBrowserPath();
                 if (string.IsNullOrEmpty(browserPath) || !File.Exists(browserPath))
                 {
-                    var result = MessageBox.Show("是否要选择默认浏览器？\n点击\"是\"选择浏览器，\"否\"使用系统默认浏览器。", "选择浏览器", MessageBoxButton.YesNo, MessageBoxImage.Question);
+                    var result = MessageBox.Show("是否要选择默认浏览器?\n点击\"是\"选择浏览器，\"否\"使用系统默认浏览器。", "选择浏览器", MessageBoxButton.YesNo, MessageBoxImage.Question);
                     if (result == MessageBoxResult.Yes)
                     {
                         SelectAndSaveBrowser();
@@ -339,7 +366,7 @@ namespace FavoritesManager
                     return;
                 }
 
-                var result = MessageBox.Show($"确定要删除资源 '{selected.Name}' 吗？", "确认删除",
+                var result = MessageBox.Show($"确定要删除资源'{selected.Name}' 吗？", "确认删除",
                     MessageBoxButton.YesNo, MessageBoxImage.Question);
 
                 if (result == MessageBoxResult.Yes)
