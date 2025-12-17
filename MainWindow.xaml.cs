@@ -120,6 +120,7 @@ namespace FavoritesManager
             AddDefaultResource("GAME520", "https://www.gamer520.com", "游戏下载", "Free", "一个Switch和PC游戏免费资源下载网站");
             AddDefaultResource("沙克游戏", "https://shaqzone.com", "游戏下载", "Free", "一个Switch和PC游戏免费资源下载网站，夸克网盘链接，不喜欢夸克网盘的绕过吧");
             AddDefaultResource("Koyso", "https://koyso.to", "游戏下载", "Free", "一个PC游戏免费资源下载网站");
+            AddDefaultResource("crocdb", "https://crocdb.net", "游戏下载", "Free", "一个免费的主机掌机游戏资源下载网站");
             AddDefaultResource("小叽资源", "https://steamzg.com", "游戏下载", "Free", "一个PC游戏免费资源下载网站");
             AddDefaultResource("烧录卡", "https://shaoluka.com", "游戏下载", "Paid", "一个任天堂游戏资源下载网站，游戏分类不明确，看不出游戏的具体平台，59.9元永久VIP，全站资源免费下载，但是没注明每天可下载多少次，差评");
             AddDefaultResource("咸鱼单机", "https://www.xianyudanji.to", "游戏下载", "Paid", "一个Switch和PC游戏资源下载网站，永久VIP原价129，限时特价49，每日可下载50次，就是不知道它这个限时特价的时间范围，如果是长期的话，那它的性价比还是较高的");
@@ -137,7 +138,13 @@ namespace FavoritesManager
             AddDefaultResource("reshax", "https://reshax.com", "论坛社区", "Free", "一个专注于游戏模组、游戏解包的社区论坛");
             AddDefaultResource("Nexus Mods", "https://www.nexusmods.com", "游戏模组", "Free", "全球最大的游戏模组平台，涵盖几乎所有主流游戏");
             AddDefaultResource("Mod DB", "https://www.moddb.com", "游戏模组", "Free", "老牌模组网站，包含大量独立游戏模组和自制游戏");
-            AddDefaultResource("GBATemp", "https://gbatemp.net", "论坛社区", "Free", "一个专注于各种主机掌机和PC游戏下载和交流的论坛社区");
+            AddDefaultResource("saintsrowmods", "https://www.saintsrowmods.com/forum", "论坛社区", "Free", "一个分享各种游戏解包工具和mod交流的论坛社区");
+            AddDefaultResource("pastebin", "https://pastebin.com/", "代码托管平台", "Free", "一个专门分享文本、代码的网站，里面也有游戏解包用的代码");
+            AddDefaultResource("SCS Software", "https://forum.scssoft.com/", "轮眼社区", "Free", "一个交流各种游戏解包和mod的论坛社区");
+            AddDefaultResource("allmods.net", "https://allmods.net", "游戏模组", "Free", "一个免费的模组下载网站");
+            AddDefaultResource("ragezone", "https://forum.ragezone.com", "论坛社区", "Free", "一个分享各种游戏解包工具和mod交流的论坛社区");
+            AddDefaultResource("fuwanovel", "https://forums.fuwanovel.moe", "论坛社区", "Free", "一个交流各种游戏解包和分享解包工具的论坛社区");
+            AddDefaultResource("GBATemp", "https://gbatemp.net", "论坛社区", "Free", "一个分享各种游戏解包工具和mod交流的论坛社区");
             AddDefaultResource("progamercity", "https://progamercity.net/game-files", "论坛社区", "Free", "一个分享各种游戏解包工具的论坛社区，但是它这个网页打开有点慢");
             AddDefaultResource("GameBanana(香蕉网)", "https://gamebanana.com", "游戏模组", "Free", "专注于CS、Garry's Mod等Source引擎游戏的模组");
             AddDefaultResource("ZenHAX", "https://zenhax.com", "论坛社区", "Free", "一个专注于游戏模组、游戏解包的社区论坛,该论坛已关闭，没有新帖，只能去里面翻找一些历史旧帖");
