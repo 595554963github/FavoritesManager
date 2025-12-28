@@ -70,7 +70,6 @@ namespace FavoritesManager
             AddDefaultResource("国漫图库", "https://guomantuku.com", "素材网站", "Free", "AI国漫女神图库");
             AddDefaultResource("我爱动漫国漫壁纸", "https://www.520dm.cn", "素材网站", "Paid", "AI国漫女神图库，看看免费的即可，不需要花钱开VIP");
             AddDefaultResource("爱小舞国漫壁纸社", "https://www.52gmbz.cn", "素材网站", "Paid", "AI国漫女神图库，看看免费的即可，不需要花钱开VIP");
-            AddDefaultResource("青春拉阔国漫壁纸", "http://www.qclive.cn", "素材网站", "Free", "AI国漫女神图库，该网站似乎没有设置VIP付费资源，直接浏览就行了");
             AddDefaultResource("ai笨笨壁纸网", "http://aiboom.art", "素材网站", "Free", "AI国漫女神图库，该网站均为免费资源，直接浏览就行了");
             AddDefaultResource("哲风壁纸阁", "http://zhefengbizhi.cn", "素材网站", "Free", "AI国漫女神图库，该网站为免费资源，直接浏览就行了，置顶的是个老铁国漫壁纸的付费资源，那个不用管");
             AddDefaultResource("老铁国漫壁纸", "https://laotiebizhi.com", "素材网站", "Paid", "AI国漫女神图库，该网站均为付费资源，不是白嫖资源，我特意查看了下购买权限，真的有人花钱购买");
