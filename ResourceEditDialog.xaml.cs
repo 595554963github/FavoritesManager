@@ -20,8 +20,8 @@ namespace FavoritesManager
         }
         private void InitializeControls()
         {
-            cmbCategory.Items.Add("免费资源");
-            cmbCategory.Items.Add("付费资源");
+            cmbCategory.Items.Add("Free");
+            cmbCategory.Items.Add("Paid");
             cmbCategory.SelectedIndex = 0;
 
             rbFree.IsChecked = true;
