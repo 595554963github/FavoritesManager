@@ -76,7 +76,7 @@ namespace FavoritesManager
             AddDefaultResource("小土豆国漫壁纸", "https://www.guomanbizhi.com", "素材网站", "Paid", "AI国漫女神图库，该网站为付费资源，看看就行，付费下载就算了");
             AddDefaultResource("大西瓜国漫壁纸", "http://www.guomanbizhi.cn", "素材网站", "Free", "AI国漫女神图库，该网站均为免费资源，直接浏览就行了");
             AddDefaultResource("爱给网", "https://www.aigei.com/design", "素材网站", "Free", "一个包含在线设计、模板、AI绘图、图库、元素、背景、图标、矢量、字体、UI、服装、PPT的多用途网站");
-            AddDefaultResource("P站", "https://www.vilipix.com", "素材网站", "Free", "国外最大的插画师作品发布平台，日本的高人气网站，我发现360浏览器可能会404，使用微软edge浏览器却可以正常访问");
+            AddDefaultResource("触站", "https://www.huashi6.com", "素材网站", "Free", "原创画师分享平台，似乎是搬运P站画师作品的网站");
             AddDefaultResource("AWS", "https://aws.amazon.com", "云服务", "Paid", "亚马逊云服务平台");
             AddDefaultResource("佩可爱动漫", "https://acg.pekolove.net", "动漫", "Free", "一个免费的可以在线播放动漫的网站");
             AddDefaultResource("樱花动漫", "https://www.295yhw.com", "动漫", "Free", "一个免费的可以在线播放动漫的网站");
@@ -90,8 +90,7 @@ namespace FavoritesManager
             AddDefaultResource("E站弹幕网", "https://www.ezdmw.site", "动漫", "Free", "一个免费的可以在线播放动漫的网站，并且可以使用视频下方的迅雷链接下载到本地，非常良心");
             AddDefaultResource("漫猫动漫", "https://www.comicat.org", "动漫", "Free", "一个免费的可以下载动漫资源的网站");
             AddDefaultResource("次元狗动漫", "https://www.acgndog.com", "动漫", "Free", "一个提供大量的动漫、漫画、游戏和轻小说资源的网站，能免费看动漫就算了居然还能免费下载游戏，绝对是游戏和动漫爱好者的必选网站");
-            AddDefaultResource("柒番动漫", "https://www.qifun.cc", "动漫", "Free", "一个免费的可以在线播放动漫的网站");
-            AddDefaultResource("ZzzFun动漫", "http://www.gcpfsc.com", "动漫", "Free", "一个免费的可以在线播放动漫的网站");
+            AddDefaultResource("柒番动漫", "https://www.qifun.cc", "动漫", "Free", "一个免费的可以在线播放动漫的网站");        
             AddDefaultResource("番薯动漫", "https://www.fsdm02.com", "动漫", "Free", "一个免费的可以在线播放动漫的网站");
             AddDefaultResource("TZ素材网", "https://www.tzsucai.com/soft.html", "设计资源", "Free", "TZ素材网，拥有三维设计、编程开发、动画设计、平面设计、渲染器、办公软件、视频制作、软件汉化等...");
             AddDefaultResource("编程师", "https://123.w3cschool.cn/webtools", "设计资源", "Free", "拥有在线IDE工具、站长辅助工具、编码转换工具、CSS在线工具、正则表达式工具、颜色工具、密码工具、XML在线工具、格式化美化工具、编程工具");
@@ -114,12 +113,11 @@ namespace FavoritesManager
             AddDefaultResource("GameFreer资源网", "https://www.gamefreer.com", "游戏下载", "Free", "一个端游手游和任天堂游戏免费资源下载网站，该网站为防止网络爬虫倒卖资源而对链接进行了加密，可通过手机浏览器获取链接再用电脑下载");
             AddDefaultResource("梨子乐游戏", "https://lzlgo.com", "游戏下载", "Free", "一个PC游戏免费资源下载网站");
             AddDefaultResource("资源避难所", "https://www.flysheep6.com", "游戏下载", "Free", "一个PC游戏免费资源下载网站");
-            AddDefaultResource("牛游戏网", "https://www.newyx.net/games", "游戏下载", "Free", "一个PC游戏免费资源下载网站");
+            AddDefaultResource("牛游戏网", "https://www.newyx.net/zt/hj", "游戏下载", "Free", "一个PC游戏免费资源下载网站，该网站不稳定，有概率重定向导致无法打开");
             AddDefaultResource("游戏大桶", "https://www.gamekeg.com", "游戏下载", "Free", "一个Switch、PS4、PS5和PC游戏免费资源下载网站");
             AddDefaultResource("GAME520", "https://www.gamer520.com", "游戏下载", "Free", "一个Switch和PC游戏免费资源下载网站");
             AddDefaultResource("沙克游戏", "https://shaqzone.com", "游戏下载", "Free", "一个Switch和PC游戏免费资源下载网站，夸克网盘链接，不喜欢夸克网盘的绕过吧");
-            AddDefaultResource("Koyso", "https://koyso.to", "游戏下载", "Free", "一个PC游戏免费资源下载网站");
-            AddDefaultResource("crocdb", "https://crocdb.net", "游戏下载", "Free", "一个免费的主机掌机游戏资源下载网站");
+            AddDefaultResource("Koyso", "https://koyso.to", "游戏下载", "Free", "一个PC游戏免费资源下载网站");         
             AddDefaultResource("小叽资源", "https://steamzg.com", "游戏下载", "Free", "一个PC游戏免费资源下载网站");
             AddDefaultResource("烧录卡", "https://shaoluka.com", "游戏下载", "Paid", "一个任天堂游戏资源下载网站，游戏分类不明确，看不出游戏的具体平台，59.9元永久VIP，全站资源免费下载，但是没注明每天可下载多少次，差评");
             AddDefaultResource("咸鱼单机", "https://www.xianyudanji.to", "游戏下载", "Paid", "一个Switch和PC游戏资源下载网站，永久VIP原价129，限时特价49，每日可下载50次，就是不知道它这个限时特价的时间范围，如果是长期的话，那它的性价比还是较高的");
@@ -151,13 +149,12 @@ namespace FavoritesManager
             AddDefaultResource("cs.rin.ru", "https://cs.rin.ru/forum/viewtopic.php?t=100672", "论坛社区", "Free", "一个虚幻引擎游戏交流论坛，主要更新各种虚幻引擎AES密钥、bms脚本、AES finder和讨论解包方法");
             AddDefaultResource("Gildor's Forums", "https://www.gildor.org/smf/index.php?board=37.0", "论坛社区", "Free", "一个虚幻引擎游戏交流论坛，主要讨论各种虚幻3/4/5游戏解包方法");
             AddDefaultResource("Falcom-模组制作工具", "http://modding.tistory.com/3", "游戏模组", "Free", "Falcom游戏工具");
-            AddDefaultResource("XDA", "https://xdaforums.com", "论坛社区", "Free", "一个全球知名的移动设备开发和改装技术论坛");
             AddDefaultResource("RomHacking", "https://www.romhacking.net/forum/index.php?board=5.0", "论坛社区", "Free", "一个外国人的游戏论坛，主要讨论游戏解包提取");
             AddDefaultResource("PlayStation专用固件下载", "https://archive.midnightchannel.net/SonyPS", "其他", "Free", "一个可以下载psv、psp、ps3、ps4和ps5官方固件的网站，其中ps4和ps5的固件仍在更新");
             AddDefaultResource("darthsternie", "https://darthsternie.net", "其他", "Free", "一个可以下载xbox自制软件、3ds、switch、psp、psv、ps2、ps3、ps4和ps5固件的网站，看着挺全面，但是部分机型固件好像更新的不是那么及时");
             AddDefaultResource("switchfirm", "https://switchfirm.org", "其他", "Free", "一个专门下载switch固件的网站");
             AddDefaultResource("foobar2000组件官方下载网站", "https://www.foobar2000.org/components", "其他", "Free", "收录了大约200多个foobar2000组件，不过现在使用64位系统的用户无法安装那些仅支持32位系统的组件");
-            AddDefaultResource("quickbms脚本官方下载网站", "https://aluigi.altervista.org/quickbms.htm", "其他", "Free", "收录了超过2000多个bms脚本，不过很多bms脚本已经失效或者根本无效，此官网早已经停止更新，因此有更多的bms脚本未收录，至于quickbms主程序可以找我下载汉化版的");
+            AddDefaultResource("quickbms脚本官方下载网站", "https://aluigi.altervista.org", "其他", "Free", "收录了超过2000多个bms脚本，不过很多bms脚本已经失效或者根本无效，此官网早已经停止更新，因此有更多的bms脚本未收录，至于quickbms主程序可以找我下载汉化版的");
             AddDefaultResource("123apps", "https://123apps.com/cn", "其他", "Free", "一个用于影片、音频、PDF与档案转换的线上工具，神奇之处在于它是使用浏览器来在线处理，不需要下载各种软件");
             AddDefaultResource("Garbro游戏档案类型", "https://morkt.github.io/GARbro/supported.html", "其他", "Free", "汇总了Garbro支持的游戏档案和测试过的游戏列表");
             AddDefaultResource("Indienova", "https://indienova.com", "论坛社区", "Free", "一个专注于独立游戏的中文社区与媒体平台，在这你可以浏览游戏在steam和主机掌机平台的售价信息，可以发布自己的游戏，可以查看开发者写的文章，甚至可以试玩一些游戏");
