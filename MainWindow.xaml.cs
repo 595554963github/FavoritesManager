@@ -64,7 +64,8 @@ namespace FavoritesManager
             AddDefaultResource("次元岛", "https://www.cosplay8.com/index.html", "Cosplay", "Free", "动漫、游戏、影视等二次元角色cosplay");
             AddDefaultResource("Cosz", "https://cosz.com", "Cosplay", "Free", "动漫、游戏、影视等二次元角色cosplay");
             AddDefaultResource("cosplay啦", "https://www.cosplayla.com", "Cosplay", "Free", "动漫、游戏、影视等二次元角色cosplay");
-            AddDefaultResource("Udemy", "https://www.udemy.com", "学习平台", "Paid", "在线学习平台，提供付费课程");
+            AddDefaultResource("strategywiki", "https://strategywiki.org/wiki/Main_Page", "维基百科", "Free", "一个各种主机掌机游戏的维基百科网站");
+            AddDefaultResource("multimedia", "https://wiki.multimedia.cx/index.php/", "维基百科", "Free", "一个科普音频、视频、图片、游戏格式的维基百科网站");
             AddDefaultResource("pixabay", "https://pixabay.com/zh/illustrations", "素材网站", "Free", "免费正版高清插画素材库");
             AddDefaultResource("CG模型网", "https://www.cgmodel.com", "素材网站", "Paid", "3d模型库");
             AddDefaultResource("国漫图库", "https://guomantuku.com", "素材网站", "Free", "AI国漫女神图库");
@@ -77,7 +78,6 @@ namespace FavoritesManager
             AddDefaultResource("大西瓜国漫壁纸", "http://www.guomanbizhi.cn", "素材网站", "Free", "AI国漫女神图库，该网站均为免费资源，直接浏览就行了");
             AddDefaultResource("爱给网", "https://www.aigei.com/design", "素材网站", "Free", "一个包含在线设计、模板、AI绘图、图库、元素、背景、图标、矢量、字体、UI、服装、PPT的多用途网站");
             AddDefaultResource("触站", "https://www.huashi6.com", "素材网站", "Free", "原创画师分享平台，似乎是搬运P站画师作品的网站");
-            AddDefaultResource("AWS", "https://aws.amazon.com", "云服务", "Paid", "亚马逊云服务平台");
             AddDefaultResource("佩可爱动漫", "https://acg.pekolove.net", "动漫", "Free", "一个免费的可以在线播放动漫的网站");
             AddDefaultResource("樱花动漫", "https://www.295yhw.com", "动漫", "Free", "一个免费的可以在线播放动漫的网站");
             AddDefaultResource("樱之空动漫", "https://skr.skrcc.cc:666/?ref=www.zhaicangku.com", "动漫", "Free", "一个免费的可以在线播放动漫的网站");
@@ -92,8 +92,8 @@ namespace FavoritesManager
             AddDefaultResource("次元狗动漫", "https://www.acgndog.com", "动漫", "Free", "一个提供大量的动漫、漫画、游戏和轻小说资源的网站，能免费看动漫就算了居然还能免费下载游戏，绝对是游戏和动漫爱好者的必选网站");
             AddDefaultResource("柒番动漫", "https://www.qifun.cc", "动漫", "Free", "一个免费的可以在线播放动漫的网站");        
             AddDefaultResource("番薯动漫", "https://www.fsdm02.com", "动漫", "Free", "一个免费的可以在线播放动漫的网站");
-            AddDefaultResource("TZ素材网", "https://www.tzsucai.com/soft.html", "设计资源", "Free", "TZ素材网，拥有三维设计、编程开发、动画设计、平面设计、渲染器、办公软件、视频制作、软件汉化等...");
-            AddDefaultResource("编程师", "https://123.w3cschool.cn/webtools", "设计资源", "Free", "拥有在线IDE工具、站长辅助工具、编码转换工具、CSS在线工具、正则表达式工具、颜色工具、密码工具、XML在线工具、格式化美化工具、编程工具");
+            AddDefaultResource("TZ素材网", "https://www.tzsucai.com/soft.html", "开发工具", "Free", "TZ素材网，拥有三维设计、编程开发、动画设计、平面设计、渲染器、办公软件、视频制作、软件汉化等...");
+            AddDefaultResource("编程师", "https://123.w3cschool.cn/webtools", "开发工具", "Free", "拥有在线IDE工具、站长辅助工具、编码转换工具、CSS在线工具、正则表达式工具、颜色工具、密码工具、XML在线工具、格式化美化工具、编程工具");
             AddDefaultResource("视觉小说游戏信息数据库", "https://vndb.org", "其他", "Free", "一个galgame游戏资源数据库");
             AddDefaultResource("CnGal资料站", "https://www.cngal.org", "其他", "Free", "一个galgame游戏百科资料站");
             AddDefaultResource("Galgame月谣", "https://www.sayafx.vip", "游戏下载", "Free", "一个免费GalGame游戏资源下载网站");
