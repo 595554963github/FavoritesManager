@@ -42,11 +42,10 @@ namespace FavoritesManager
             var colors = new System.Collections.Generic.Dictionary<string, string>
             {
                 {"代码托管平台", "#2196F3"},
-                {"设计资源", "#E91E63"},
-                {"学习平台", "#9C27B0"},
+                {"开发工具", "#E91E63"},
+                {"维基百科", "#9C27B0"},
                 {"素材网站", "#4CAF50"},
                 {"Cosplay", "#FF4081"},
-                {"云服务", "#FF9800"},
                 {"论坛社区", "#795548"},
                 {"游戏下载", "#607D8B"},
                 {"动漫", "#FF0000"},
