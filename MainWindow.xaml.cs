@@ -115,12 +115,15 @@ namespace FavoritesManager
             AddDefaultResource("资源避难所", "https://www.flysheep6.com", "游戏下载", "Free", "一个PC游戏免费资源下载网站");
             AddDefaultResource("牛游戏网", "https://www.newyx.net/zt/hj", "游戏下载", "Free", "一个PC游戏免费资源下载网站，该网站不稳定，有概率重定向导致无法打开");
             AddDefaultResource("游戏大桶", "https://www.gamekeg.com", "游戏下载", "Free", "一个Switch、PS4、PS5和PC游戏免费资源下载网站");
-            AddDefaultResource("GAME520", "https://www.gamer520.com", "游戏下载", "Free", "一个Switch和PC游戏免费资源下载网站");
+            AddDefaultResource("GAME520", "https://www.gamer520.com/zhangji", "游戏下载", "Free", "一个Switch、PS4和PC游戏免费资源下载网站");
             AddDefaultResource("沙克游戏", "https://shaqzone.com", "游戏下载", "Free", "一个Switch和PC游戏免费资源下载网站，夸克网盘链接，不喜欢夸克网盘的绕过吧");
             AddDefaultResource("Koyso", "https://koyso.to", "游戏下载", "Free", "一个PC游戏免费资源下载网站");         
             AddDefaultResource("小叽资源", "https://steamzg.com", "游戏下载", "Free", "一个PC游戏免费资源下载网站");
             AddDefaultResource("烧录卡", "https://shaoluka.com", "游戏下载", "Paid", "一个任天堂游戏资源下载网站，游戏分类不明确，看不出游戏的具体平台，59.9元永久VIP，全站资源免费下载，但是没注明每天可下载多少次，差评");
             AddDefaultResource("咸鱼单机", "https://www.xianyudanji.to", "游戏下载", "Paid", "一个Switch和PC游戏资源下载网站，永久VIP原价129，限时特价49，每日可下载50次，就是不知道它这个限时特价的时间范围，如果是长期的话，那它的性价比还是较高的");
+            AddDefaultResource("SKY电玩人", "https://sky.sfcrom.com", "游戏下载", "Paid", "一个Switch和PC游戏资源下载网站，永久VIP最低25，每天可下载30次，39.9无下载次数限制");
+            AddDefaultResource("Game Share", "https://www.gameshare.cc", "游戏下载", "Free", "一个PC游戏免费资源下载网站，完全免费，不需要注册账号");
+            AddDefaultResource("Ms游戏库", "https://www.msgamego.com", "游戏下载", "Paid", "一个Switch和PC游戏资源下载网站，永久VIP98，每天最多只能下载10次");
             AddDefaultResource("GBT单机游戏空间", "https://gbtgame.org", "游戏下载", "Paid", "一个主机、掌机和PC游戏资源下载网站，永久VIP49.8,全站无限制下载，不限制每天的下载次数");
             AddDefaultResource("GAME中文网", "https://www.ns211.com", "游戏下载", "Paid", "一个Switch和PC游戏资源下载网站，80元终身VIP，付费资源免费下载，资源终身无限下载");
             AddDefaultResource("nspdown", "https://www.nspdown.com", "游戏下载", "Paid", "一个Switch游戏资源下载网站，60元终身VIP，每天可下载50个资源，全部资源免费下载");
@@ -158,6 +161,8 @@ namespace FavoritesManager
             AddDefaultResource("123apps", "https://123apps.com/cn", "其他", "Free", "一个用于影片、音频、PDF与档案转换的线上工具，神奇之处在于它是使用浏览器来在线处理，不需要下载各种软件");
             AddDefaultResource("Garbro游戏档案类型", "https://morkt.github.io/GARbro/supported.html", "其他", "Free", "汇总了Garbro支持的游戏档案和测试过的游戏列表");
             AddDefaultResource("Indienova", "https://indienova.com", "论坛社区", "Free", "一个专注于独立游戏的中文社区与媒体平台，在这你可以浏览游戏在steam和主机掌机平台的售价信息，可以发布自己的游戏，可以查看开发者写的文章，甚至可以试玩一些游戏");
+            AddDefaultResource("segaxtreme", "https://segaxtreme.net", "论坛社区", "Free", "一个专门讨论掌机和单机游戏的论坛社区，没看到主机游戏，光看网址的话以为仅仅是个sega论坛");
+            AddDefaultResource("dllme", "https://www.dllme.com", "其他", "Free", "一个神奇网站，里面收录了大量的dll，比如oo2core_9_win64.dll这种经常出现在游戏或者解包工具的dll在这里已经不足为奇了，之所以说它神奇是从解包者的角度考虑，如果你为了解包某个游戏缺一个重要的dll的话，可以在这里找找看，完善你的解包工具");
             filteredResources = resources.ToList();
             SortResourcesByName();
         }
