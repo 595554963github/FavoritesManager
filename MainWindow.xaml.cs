@@ -119,6 +119,13 @@ namespace FavoritesManager
             AddDefaultResource("沙克游戏", "https://shaqzone.com", "游戏下载", "Free", "一个Switch和PC游戏免费资源下载网站，夸克网盘链接，不喜欢夸克网盘的绕过吧");
             AddDefaultResource("Koyso", "https://koyso.to", "游戏下载", "Free", "一个PC游戏免费资源下载网站");         
             AddDefaultResource("小叽资源", "https://steamzg.com", "游戏下载", "Free", "一个PC游戏免费资源下载网站");
+            AddDefaultResource("romsgames", "https://www.romsgames.net/roms", "游戏下载", "Free", "一个主机掌机游戏免费资源下载网站");
+            AddDefaultResource("romhustler", "https://romhustler.org", "游戏下载", "Free", "一个主机掌机游戏免费资源下载网站");
+            AddDefaultResource("retrostic", "https://www.retrostic.com", "游戏下载", "Free", "一个主机掌机游戏免费资源下载网站");
+            AddDefaultResource("consoleroms", "https://www.consoleroms.com", "游戏下载", "Free", "一个主机掌机游戏免费资源下载网站");
+            AddDefaultResource("oldemu", "https://www.oldemu.com", "游戏下载", "Free", "一个主机掌机游戏免费资源下载网站");
+            AddDefaultResource("romulation", "https://www.romulation.org", "游戏下载", "Free", "一个主机掌机游戏免费资源下载网站");
+            AddDefaultResource("romspedia", "https://www.romspedia.com", "游戏下载", "Free", "一个主机掌机游戏免费资源下载网站");
             AddDefaultResource("烧录卡", "https://shaoluka.com", "游戏下载", "Paid", "一个任天堂游戏资源下载网站，游戏分类不明确，看不出游戏的具体平台，59.9元永久VIP，全站资源免费下载，但是没注明每天可下载多少次，差评");
             AddDefaultResource("咸鱼单机", "https://www.xianyudanji.to", "游戏下载", "Paid", "一个Switch和PC游戏资源下载网站，永久VIP原价129，限时特价49，每日可下载50次，就是不知道它这个限时特价的时间范围，如果是长期的话，那它的性价比还是较高的");
             AddDefaultResource("SKY电玩人", "https://sky.sfcrom.com", "游戏下载", "Paid", "一个Switch和PC游戏资源下载网站，永久VIP最低25，每天可下载30次，39.9无下载次数限制");
