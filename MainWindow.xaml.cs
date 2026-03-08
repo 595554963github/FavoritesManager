@@ -170,6 +170,9 @@ namespace FavoritesManager
             AddDefaultResource("Indienova", "https://indienova.com", "论坛社区", "Free", "一个专注于独立游戏的中文社区与媒体平台，在这你可以浏览游戏在steam和主机掌机平台的售价信息，可以发布自己的游戏，可以查看开发者写的文章，甚至可以试玩一些游戏");
             AddDefaultResource("segaxtreme", "https://segaxtreme.net", "论坛社区", "Free", "一个专门讨论掌机和单机游戏的论坛社区，没看到主机游戏，光看网址的话以为仅仅是个sega论坛");
             AddDefaultResource("dllme", "https://www.dllme.com", "其他", "Free", "一个神奇网站，里面收录了大量的dll，比如oo2core_9_win64.dll这种经常出现在游戏或者解包工具的dll在这里已经不足为奇了，之所以说它神奇是从解包者的角度考虑，如果你为了解包某个游戏缺一个重要的dll的话，可以在这里找找看，完善你的解包工具");
+            AddDefaultResource("rarewares", "https://www.rarewares.org/rrw/programs.php", "其他", "Free", "音频视频软件合集");
+            AddDefaultResource("CODECS", "https://www.free-codecs.com", "其他", "Free", "音频视频软件合集");
+
             filteredResources = resources.ToList();
             SortResourcesByName();
         }
