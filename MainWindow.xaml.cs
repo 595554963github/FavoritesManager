@@ -2,6 +2,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Input;
 
 namespace FavoritesManager
 {
@@ -51,7 +52,6 @@ namespace FavoritesManager
             AddDefaultResource("componentaceACE", "https://www.componentace.com", "其他", "Free", "一家专注于软件开发组件的公司，主要为开发者提供数据库、压缩、加密等领域的功能组件，支持 Delphi、C++ Builder、.NET等多种开发平台和框架。");
             AddDefaultResource("MSDN", "https://msdn.itellyou.cn", "其他", "Free", "微软官方Windows系统镜像下载地址");
             AddDefaultResource("NEXT, ITELLYOU", "https://next.itellyou.cn/Original", "其他", "Free", "第三方Windows系统镜像下载地址");
-            AddDefaultResource("城通网盘解析工具", "https://www.umpsa.top", "其他", "Free", "城通网盘链接解析器，解析链接提高下载速度");
             AddDefaultResource("音乐解锁", "http://unlock.music.hi.cn", "其他", "Free", "移除音乐的加密保护,目前支持网易云音乐(ncm),QQ音乐(qmc,mflac,mgg),酷狗音乐(kgm),虾米音乐(xm),酷我音乐(.kwm)");
             AddDefaultResource("风车漫画", "https://www.fengchemh.com", "漫画", "Free", "国产、日版、韩国、欧美漫画网站");
             AddDefaultResource("漫画站", "https://www.manhuazhan.org", "漫画", "Free", "国产、日版、韩国、欧美漫画网站");
@@ -69,17 +69,12 @@ namespace FavoritesManager
             AddDefaultResource("pixabay", "https://pixabay.com/zh/illustrations", "素材网站", "Free", "免费正版高清插画素材库");
             AddDefaultResource("CG模型网", "https://www.cgmodel.com", "素材网站", "Paid", "3d模型库");
             AddDefaultResource("国漫图库", "https://guomantuku.com", "素材网站", "Free", "AI国漫女神图库");
-            AddDefaultResource("我爱动漫国漫壁纸", "https://www.520dm.cn", "素材网站", "Paid", "AI国漫女神图库，看看免费的即可，不需要花钱开VIP");
-            AddDefaultResource("爱小舞国漫壁纸社", "https://www.52gmbz.cn", "素材网站", "Paid", "AI国漫女神图库，看看免费的即可，不需要花钱开VIP");
-            AddDefaultResource("ai笨笨壁纸网", "http://aiboom.art", "素材网站", "Free", "AI国漫女神图库，该网站均为免费资源，直接浏览就行了");
-            AddDefaultResource("哲风壁纸阁", "http://zhefengbizhi.cn", "素材网站", "Free", "AI国漫女神图库，该网站为免费资源，直接浏览就行了，置顶的是个老铁国漫壁纸的付费资源，那个不用管");
-            AddDefaultResource("老铁国漫壁纸", "https://laotiebizhi.com", "素材网站", "Paid", "AI国漫女神图库，该网站均为付费资源，不是白嫖资源，我特意查看了下购买权限，真的有人花钱购买");
+            AddDefaultResource("爱小舞国漫壁纸社", "https://www.52gmbz.cn", "素材网站", "Paid", "AI国漫女神图库，看看免费的即可，不需要花钱开VIP");   
             AddDefaultResource("小土豆国漫壁纸", "https://www.guomanbizhi.com", "素材网站", "Paid", "AI国漫女神图库，该网站为付费资源，看看就行，付费下载就算了");
-            AddDefaultResource("大西瓜国漫壁纸", "http://www.guomanbizhi.cn", "素材网站", "Free", "AI国漫女神图库，该网站均为免费资源，直接浏览就行了");
             AddDefaultResource("爱给网", "https://www.aigei.com/design", "素材网站", "Free", "一个包含在线设计、模板、AI绘图、图库、元素、背景、图标、矢量、字体、UI、服装、PPT的多用途网站");
             AddDefaultResource("触站", "https://www.huashi6.com", "素材网站", "Free", "原创画师分享平台，似乎是搬运P站画师作品的网站");
             AddDefaultResource("佩可爱动漫", "https://acg.pekolove.net", "动漫", "Free", "一个免费的可以在线播放动漫的网站");
-            AddDefaultResource("樱花动漫", "https://www.295yhw.com", "动漫", "Free", "一个免费的可以在线播放动漫的网站");
+            AddDefaultResource("樱花动漫", "https://www.sci-star.com", "动漫", "Free", "一个免费的可以在线播放动漫的网站");
             AddDefaultResource("樱之空动漫", "https://skr.skrcc.cc:666/?ref=www.zhaicangku.com", "动漫", "Free", "一个免费的可以在线播放动漫的网站");
             AddDefaultResource("风车动漫", "https://fche.cc", "动漫", "Free", "一个免费的可以在线播放动漫的网站");
             AddDefaultResource("咪咕番", "https://www.gugu3.com", "动漫", "Free", "一个免费的可以在线播放动漫的网站");
@@ -100,14 +95,12 @@ namespace FavoritesManager
             AddDefaultResource("SteamGalgame", "https://steamgalgame.com", "其他", "Free", "一个收集Steam上中文Galgame的网站，本网站会显示galgame游戏的价格和折扣，方便大家快速查找和获取Steam上最新的官方中文Galgame");
             AddDefaultResource("xxacg", "https://xxacg.net/", "游戏下载", "Free", "一个免费的galgame游戏资源下载网站，注册账号后就可以免费下载，只是该网站相应较慢，需要耐心等待");
             AddDefaultResource("真红小站", "https://www.shinnku.com", "游戏下载", "Free", "一个免费GalGame游戏资源下载网站，不需要注册账号即可下载");
-            AddDefaultResource("稻荷GAL", "https://inarigal.com", "游戏下载", "Free", "一个免费GalGame游戏资源下载网站，不需要注册账号即可下载");
             AddDefaultResource("MyGalgame", "https://www.ttloli.com", "其他", "Free", "一个曾经的galgame游戏资源分享网站，现在似乎只能看下幻灯片了");
             AddDefaultResource("游戏工厂", "https://gamefabrique.com", "游戏下载", "Free", "一个外国人的游戏资源免费下载网站，访问速度很慢");
             AddDefaultResource("All My Roms", "https://www.allmyroms.net", "游戏下载", "Free", "一个外国人的掌机游戏免费资源下载网站");
             AddDefaultResource("老男人游戏网", "https://www.oldmantvg.net", "游戏下载", "Paid", "一个主机掌机游戏资源下载网站，拥有索尼、微软、任天堂和世嘉的部分机型游戏rom，不包括ps4和switch，30TB的游戏，2024年花50元开会员支持了一下");
             AddDefaultResource("跑跑车游戏网", "https://www.paopaoche.net/tv/101581.html", "游戏下载", "Free", "一个主机、掌机、PC游戏资源下载网站");
             AddDefaultResource("K73资源网", "http://www.k73.com/down", "游戏下载", "Free", "一个主机、掌机、PC游戏资源下载网站");
-            AddDefaultResource("myrient", "https://myrient.erista.me/files/Redump/Microsoft%20-%20Xbox%20360", "游戏下载", "Free", "一个Xbox360游戏资源免费下载网站");
             AddDefaultResource("散月的星空", "https://www.sygame515.com", "游戏下载", "Free", "一个Switch和PS4游戏免费资源下载网站");
             AddDefaultResource("奥德彪计划", "https://2468c.com", "游戏下载", "Free", "一个PS4和PS5游戏免费资源下载网站");
             AddDefaultResource("GameFreer资源网", "https://www.gamefreer.com", "游戏下载", "Free", "一个端游手游和任天堂游戏免费资源下载网站，该网站为防止网络爬虫倒卖资源而对链接进行了加密，可通过手机浏览器获取链接再用电脑下载");
@@ -152,7 +145,6 @@ namespace FavoritesManager
             AddDefaultResource("ragezone", "https://forum.ragezone.com", "论坛社区", "Free", "一个分享各种游戏解包工具和mod交流的论坛社区");
             AddDefaultResource("fuwanovel", "https://forums.fuwanovel.moe", "论坛社区", "Free", "一个交流各种游戏解包和分享解包工具的论坛社区");
             AddDefaultResource("GBATemp", "https://gbatemp.net", "论坛社区", "Free", "一个分享各种游戏解包工具和mod交流的论坛社区");
-            AddDefaultResource("progamercity", "https://progamercity.net/game-files", "论坛社区", "Free", "一个分享各种游戏解包工具的论坛社区，但是它这个网页打开有点慢");
             AddDefaultResource("GameBanana(香蕉网)", "https://gamebanana.com", "游戏模组", "Free", "专注于CS、Garry's Mod等Source引擎游戏的模组");
             AddDefaultResource("ZenHAX", "https://zenhax.com", "论坛社区", "Free", "一个专注于游戏模组、游戏解包的社区论坛,该论坛已关闭，没有新帖，只能去里面翻找一些历史旧帖");
             AddDefaultResource("modworkshop", "https://modworkshop.net", "游戏模组", "Free", "一个创造和下载各种游戏模组的平台");
@@ -170,8 +162,12 @@ namespace FavoritesManager
             AddDefaultResource("Indienova", "https://indienova.com", "论坛社区", "Free", "一个专注于独立游戏的中文社区与媒体平台，在这你可以浏览游戏在steam和主机掌机平台的售价信息，可以发布自己的游戏，可以查看开发者写的文章，甚至可以试玩一些游戏");
             AddDefaultResource("segaxtreme", "https://segaxtreme.net", "论坛社区", "Free", "一个专门讨论掌机和单机游戏的论坛社区，没看到主机游戏，光看网址的话以为仅仅是个sega论坛");
             AddDefaultResource("dllme", "https://www.dllme.com", "其他", "Free", "一个神奇网站，里面收录了大量的dll，比如oo2core_9_win64.dll这种经常出现在游戏或者解包工具的dll在这里已经不足为奇了，之所以说它神奇是从解包者的角度考虑，如果你为了解包某个游戏缺一个重要的dll的话，可以在这里找找看，完善你的解包工具");
-            AddDefaultResource("rarewares", "https://www.rarewares.org/rrw/programs.php", "其他", "Free", "音频视频软件合集");
-            AddDefaultResource("CODECS", "https://www.free-codecs.com", "其他", "Free", "音频视频软件合集");
+            AddDefaultResource("rarewares", "https://www.rarewares.org/rrw/programs.php", "其他", "Free", "音频视频编解码器");
+            AddDefaultResource("rarewares", "https://www.rarewares.org/index.php", "其他", "Free", "音频视频编解码器");
+            AddDefaultResource("CODECS", "https://www.free-codecs.com", "其他", "Free", "音频视频编解码器");
+            AddDefaultResource("emuparadise", "https://www.emuparadise.me", "其他", "Free", "一个复古游戏镜像、模拟器等资源网站");
+            AddDefaultResource("kuangyx", "https://kuangyx.cn", "其他", "Free", "一个一个前端开发者的个人技术博客+组件库+工具站");
+            AddDefaultResource("psx-spx", "https://psx-spx.consoledev.net", "其他", "Free", "一个PlayStation的wiki百科网站");
 
             filteredResources = resources.ToList();
             SortResourcesByName();
@@ -292,7 +288,14 @@ namespace FavoritesManager
                 MessageBox.Show($"打开网址失败:{ex.Message}", "错误", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
-
+        private void txtDetailUrl_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            var selected = lstResources.SelectedItem as ResourceItem;
+            if (selected != null && !string.IsNullOrEmpty(selected.Url))
+            {
+                OpenUrlWithBrowser(selected.Url, selected.Name);
+            }
+        }
         private void SelectAndSaveBrowser()
         {
             var dialog = new Microsoft.Win32.OpenFileDialog();
