@@ -107,7 +107,7 @@ namespace FavoritesManager
             AddDefaultResource("梨子乐游戏", "https://lzlgo.com", "游戏下载", "Free", "一个PC游戏免费资源下载网站");
             AddDefaultResource("资源避难所", "https://www.flysheep6.com", "游戏下载", "Free", "一个PC游戏免费资源下载网站");
             AddDefaultResource("牛游戏网", "https://www.newyx.net/zt/hj", "游戏下载", "Free", "一个PC游戏免费资源下载网站，该网站不稳定，有概率重定向导致无法打开");
-            AddDefaultResource("游戏大桶", "https://www.gamekeg.com", "游戏下载", "Free", "一个Switch、PS4、PS5和PC游戏免费资源下载网站");
+            AddDefaultResource("游戏大桶", "https://www.gamekeg.com", "游戏下载", "Paid", "一个Switch、PS4、PS5和PC游戏资源下载网站，升级会员会跳转到switch520，90块钱永久会员，每日可无限下载");
             AddDefaultResource("GAME520", "https://www.gamer520.com/zhangji", "游戏下载", "Free", "一个Switch、PS4和PC游戏免费资源下载网站");
             AddDefaultResource("沙克游戏", "https://shaqzone.com", "游戏下载", "Free", "一个Switch和PC游戏免费资源下载网站，夸克网盘链接，不喜欢夸克网盘的绕过吧");
             AddDefaultResource("Koyso", "https://koyso.to", "游戏下载", "Free", "一个PC游戏免费资源下载网站");         
